@@ -10,7 +10,7 @@ public class DadosdasOngs extends Ong{
 
 	public DadosdasOngs(ArrayList<String> nome, 
 			ArrayList<String> contato, ArrayList<String> descricao) {
-		super(nome, contato, descricao, descricao);
+		super(nome, contato, descricao);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -28,13 +28,13 @@ public class DadosdasOngs extends Ong{
 	}
 	
 	public List<String> getContatoSaude() {
-		contato.add("(11) 2522-5712\r\n" + 
+		contato.add("Contato: (11) 2522-5712\r\n" + 
 				"https://www.tucca.org.br/");
-		contato.add("Telefone: (21) 2512-1123\r\n" + 
+		contato.add("Telefone: (21) 2512-1123\r\n Site: https://larteresadejesus.org/" + 
 				"");
-		contato.add("Telefone: (31) 3291-1330\nhttps://larteresadejesus.org\r\n" + 
+		contato.add("Telefone: (31) 3291-1330\n Site: https://larteresadejesus.org\r\n" + 
 				"");
-		contato.add("https://www.horasdavida.org.br\r\n" + 
+		contato.add("Telefone:(11) 9 9102-1588   \nSite: https://www.horasdavida.org.br\r\n" + 
 				"");
 		return contato;
 	}
@@ -79,9 +79,9 @@ public class DadosdasOngs extends Ong{
 	}
 	
 	public List<String> getContatoTrabalho() {
-		contato.add("(11) 97033-6229");
-		contato.add("https://www.worldpackers.com/pt-BR/search/south_america/brazil");
-		contato.add("https://livredetrabalhoinfantil.org.br/institucional/quem-somos/");
+		contato.add("Telefone: (11) 97033-6229\n   Site: https://www.cruzandohistorias.org/ ");
+		contato.add("Telefone: XXXXXXXXXXXXXX                    \nSite: https://www.worldpackers.com/pt-BR/search/south_america/brazil");
+		contato.add("Telefone: XXXXXXXXXXXXXXXX    \nhttps://livredetrabalhoinfantil.org.br/institucional/quem-somos/");
 		return contato;
 	}
 	
@@ -100,7 +100,7 @@ public class DadosdasOngs extends Ong{
 	}
 	
 	public List<String> getNomeEducacao() {
-		nome.add("Cruzando histórias");
+		nome.add("Generation");
 		nome.add(" Fundação Abrinq");
 		nome.add(" Projeto Urerê");
 		nome.add("Associação Vaga Lume");
@@ -108,14 +108,14 @@ public class DadosdasOngs extends Ong{
 	}
 	
 	public List<String> getContatoEducacao() {
-		contato.add("0800 707 1027\r\n" + 
-				"https://brazil.generation.org/");
-		contato.add("https://www.fadc.org.br/");
+		contato.add("Telefone: 0800 707 1027\r\n" + 
+				"Site: https://brazil.generation.org/");
+		contato.add("Telefone:  0300 10 12345 \n Site: https://www.fadc.org.br/");
 		
-		contato.add("Telefone: (21) 3881-6219/https://www.projetouere.org.br\r\n" + 
+		contato.add("Telefone: (21) 3881-6219\n Site: https://www.projetouere.org.br\r\n" + 
 				"");
 		
-		contato.add("https://vagalume.org.br\r\n" + 
+		contato.add("Site: https://vagalume.org.br\r\n" + 
 				"Telefone: (11) 3032-6032");
 		return contato;
 	}
@@ -166,14 +166,14 @@ public class DadosdasOngs extends Ong{
 	
 	public List<String> getContatoCidadao() {
 		contato = new ArrayList<String>();
-		contato.add("\nhttps://moradiaecidadaniamg.org.br/sobre-nos/"+"Para ajuda-lá basta acessar o site e realizar uma doação ");
-		contato.add("\r\n" + 
-				"https://www.amigosdobem.org/\r\n" + 
+		contato.add("Telefone:(61) 3224-8071  \n Site: https://moradiaecidadaniamg.org.br/sobre-nos/"+"Para ajuda-lá basta acessar o site e realizar uma doação ");
+		contato.add("Telefone: (11) 3019-0100\r\n" + 
+				"Site: https://www.amigosdobem.org/\r\n" + 
 				"");
-		contato.add("https://www.temgentecomfome.com.br/");
-		contato.add("https://misturai.com/amparai/");
-		contato.add("\r\n" + 
-				"https://www.bancodealimentos.org.br/\r\n" + 
+		contato.add("Telefone: XXXXXX \n Site: https://www.temgentecomfome.com.br/");
+		contato.add("Telefone: XXXXXXXXXX \nSite: https://misturai.com/amparai/");
+		contato.add("Telefone: XXXXXXXXX\r\n" + 
+				"Site: https://www.bancodealimentos.org.br/\r\n" + 
 				"");
 		return contato;
 	}
@@ -206,11 +206,17 @@ public class DadosdasOngs extends Ong{
 	
 	public List<String> getNomeAnimais() {
 		 nome.add("AMPARA Animal");
+		 nome.add("Arca Brasil ");
+		 nome.add("Clube dos Vira-latas ");
+		 nome.add("Cão sem dono ");
 		 return nome;
 	}
 	
 	public List<String> getContatoAnimais() {
-		contato.add("https://amparanimal.org.br/");
+		contato.add("Telefone: XXXXXXXX\nSite: https://amparanimal.org.br/");
+		contato.add("Telefone: (11) 3031-6991 \nSite: https://arcabrasil.org.b");
+		contato.add("Telefone: xxxxxxxxxx\n Site:  https://www.clubedosviralatas.org.br/");
+		contato.add("Telefone: TEL. (11) 4970-8010 \n Site: https://nfpet.com.br/blog/ ");
 		return contato;
 	}
 	
@@ -218,6 +224,22 @@ public class DadosdasOngs extends Ong{
 		descricao.add("A AMPARA Animal (Associação de Mulheres Protetoras dos Animais Rejeitados e Abandonados) "
 				+ "é uma OSCIP sem fins lucrativos que ajuda abrigos e protetores independentes com ração, medicamentos "
 				+ "e atendimento veterinário.");
+		descricao.add("Na lista de ONGs de animais está a Arca Brasil, inaugurada em 1993. Essa entidade"
+				+ "\n foi a primeira no país a planejar um programa municipal para conter a proliferação de"
+				+ "\n cães e gatos nas ruas. Assim, com esse projeto piloto, ela serviu de modelo para várias outras "
+				+ "\nassociações e órgãos públicos. Até mesmo a capital paulista copiou a ideia.");
+		descricao.add("A boa notícia para quem ama os amigos de quatro patas é que as ONGs de animais são muito "
+				+ "\nnumerosas mesmo. Nesse sentido, temos também o Clube dos Vira-latas. Essa associação desenvolve"
+				+ "\n programas para incentivar a adoção de pets.\r\n" + 
+				"Entre as suas realizações estão campanhas para castração, para intervenções cirúrgicas e para vacinar."
+				+ "\n Eles são da área do Grande ABC, região metropolitana de São Paulo.\r\n" + 
+				"");
+		descricao.add("Em Itapecerica da Serra, São Paulo, há mais iniciativas interessantes de ONGs de animais. Desse modo,"
+				+ " a instituição Cão sem Dono é outra opção para dar aquela força.\r\n" + 
+				"Afinal, eles focam em bichos vítimas de maus-tratos. No local, a alimentação de "
+				+ "\ncães e gatos consome uma quantidade diária de ração que chega a 200 quilos. Mais um ponto a favor:"
+				+ "\n a associação fica de portas abertas para o público.\r\n" + 
+				"");
 		return descricao;
 	}
 	
